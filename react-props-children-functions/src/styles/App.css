@@ -1,0 +1,46 @@
+/*Fonts:*/
+/*Rex: font-family: 'Ceviche One', cursive;*/
+/*Body: font-family: 'Exo 2', sans-serif;*/
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background-color: #DFD6B5;
+}
+
+.jumbotron {
+  font-size: 2em;
+  background-color: #405168;
+  color: #D3D5D8;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #405168;
+    color: #D3D5D8;
+    text-align: center;
+}
+
+.display {
+  position: relative;
+  top: 100px;
+  /*padding: 10px 0 0 0;*/
+  margin: 0 50%;
+  height: 2em;
+  font-family: 'Ceviche One', cursive;
+  font-size: 3em;
+  color: #3C361F;
+}
+
+.dino-pic {
+  /*float: left;*/
+  background-image: url('./images/tyranosaurus-rex.jpg');
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  margin: 0px 20% 30px 20%;
+  margin-top: 0;
+}
