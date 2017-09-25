@@ -28,9 +28,8 @@ export default class ParentComponent extends Component {
 
   }
   render() {
-    console.log("render state: ", this.state)
     return (
-      <div className="form-wrapper">
+      <div className="align-self-center form-wrapper">
         <form className="form-control">
           <input className="col align-self-center" onChange={this.handleInput} type="text" size='30' value={this.state.whatToSay} />
           <ChildComponent onClick={this.handleSubmit}/>

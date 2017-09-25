@@ -12,7 +12,7 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <div className="container">
+        <div className="main container row">
           <BaseLayout children={this.state.children}>
 
           </BaseLayout>
